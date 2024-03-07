@@ -1,0 +1,14 @@
+{
+    "type": "postgres",
+    "host": "localhost",
+    "port": 5432,
+    "username": "seu_usuario",
+    "password": "sua_senha",
+    "database": "nome_do_seu_banco_de_dados",
+    "entities": [
+      "dist/entity/**/*.js"
+    ],
+    "synchronize": true,
+    "logging": false
+  }
+  
