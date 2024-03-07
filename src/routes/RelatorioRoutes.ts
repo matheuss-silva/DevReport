@@ -19,4 +19,4 @@ router.put('/relatorios/:id', updateRelatorio);
 // Deletar um relatório pelo ID
 router.delete('/relatorios/:id', deleteRelatorio);
 
-export default router;
+module.exports = router;

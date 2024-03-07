@@ -14,4 +14,4 @@ router.post('/relatorios', RelatorioController_1.createRelatorio);
 router.put('/relatorios/:id', RelatorioController_1.updateRelatorio);
 // Deletar um relatório pelo ID
 router.delete('/relatorios/:id', RelatorioController_1.deleteRelatorio);
-exports.default = router;
+module.exports = router;

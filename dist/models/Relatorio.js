@@ -13,21 +13,20 @@ exports.Relatorio = void 0;
 // src/models/Relatorio.ts
 const typeorm_1 = require("typeorm");
 let Relatorio = class Relatorio {
-    constructor() {
-        this.id = 0;
-        this.nome = '';
-        // Outros campos conforme necessário
-    }
 };
 exports.Relatorio = Relatorio;
 __decorate([
     (0, typeorm_1.PrimaryGeneratedColumn)(),
-    __metadata("design:type", Number)
+    __metadata("design:type", Object)
 ], Relatorio.prototype, "id", void 0);
 __decorate([
     (0, typeorm_1.Column)(),
-    __metadata("design:type", String)
+    __metadata("design:type", Object)
 ], Relatorio.prototype, "nome", void 0);
+__decorate([
+    (0, typeorm_1.Column)(),
+    __metadata("design:type", Object)
+], Relatorio.prototype, "email", void 0);
 exports.Relatorio = Relatorio = __decorate([
     (0, typeorm_1.Entity)()
 ], Relatorio);
