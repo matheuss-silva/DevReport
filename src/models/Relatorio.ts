@@ -4,11 +4,11 @@ import { Entity, PrimaryGeneratedColumn, Column } from 'typeorm';
 @Entity()
 export class Relatorio {
   @PrimaryGeneratedColumn()
-  id: number = 0;
+  id?: number;
 
   @Column()
-  nome: string = 'ana';
+  nome?: string;
 
   @Column()
-  email: string = 'email@';
+  email?: string;
 }
