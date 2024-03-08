@@ -3,6 +3,7 @@ import { Request, Response } from 'express';
 import { getRepository } from 'typeorm';
 import { Relatorio } from '../models/Relatorio'; // Importe seu modelo TypeORM aqui
 
+
 export const getRelatorios = async (req: Request, res: Response) => {
   const relatorioRepository = getRepository(Relatorio);
   const relatorios = await relatorioRepository.find();

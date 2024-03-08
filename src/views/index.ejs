@@ -1,0 +1,10 @@
+<%- include('layout', { title: 'Lista de Relatórios', body: `
+  <h1>Lista de Relatórios</h1>
+  <ul>
+    <% relatorios.forEach(relatorio => { %>
+      <li>
+        <%= relatorio.nome %> - <%= relatorio.descricao %> <!-- Substitua pelos campos que você tem -->
+      </li>
+    <% }); %>
+  </ul>
+` }); %>

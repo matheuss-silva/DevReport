@@ -6,9 +6,10 @@
     "password": "1234",
     "database": "DevReport",
     "entities": [
-      "dist/entity/**/*.js"
+      "dist/models/**/*.js"
     ],
     "synchronize": true,
-    "logging": false
+    "logging": true
+
   }
   
